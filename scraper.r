@@ -1,3 +1,10 @@
+# scraper.R
+options(repos = c(CRAN = "https://cran.rstudio.com/"))
+
+# Your R code
+# ...
+
+
 library(rvest) 
 library(tidyr)
 library(dplyr)
