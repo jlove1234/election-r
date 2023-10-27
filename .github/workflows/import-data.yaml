@@ -13,11 +13,11 @@ jobs:
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
-            any::tidyverse 
-            any::rvest
-            any::tidyr
-            any::dplyr
-            any::data.table
+            tidyverse 
+            rvest
+            tidyr
+            dplyr
+            data.table
 
 
       - name: Check out repository
