@@ -24,6 +24,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Import data
+        working-directory: /workspaces/election-r/scraper.r
         run: Rscript -e 'source("scraper.R")'
 
       - name: Commit results
